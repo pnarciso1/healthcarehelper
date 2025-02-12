@@ -8,11 +8,7 @@ import { ProblemStatement } from '@/components/sections/ProblemStatement'
 import { Solution } from '@/components/sections/Solution'
 import { UseCases } from '@/components/sections/UseCases'
 
-interface Props {
-  children?: React.ReactNode
-}
-
-const Home: NextPage<Props> = () => {
+const Home: NextPage = () => {
   return (
     <main className="bg-navy min-h-screen">
       <Navbar />
